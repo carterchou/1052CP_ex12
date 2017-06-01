@@ -1,0 +1,38 @@
+/*這是我第一個程式碼喔!!!*/
+public class begining {
+
+	public static void main(String[] args) {
+
+		String z = "*";
+		int b = 1 ;
+		int c = 5 ;
+		int f = 1 ;
+		int k = 1 ;
+		//
+		int u = 1 ;
+		int i = 1 ;
+		for(int a = 1;a <= 5 ; a++){
+		    for(; b <= c ; b++){
+		    	System.out.print(" ");
+		    	
+		    		
+		    }
+		    for(; f <= k ;f++){
+	    		System.out.print(z);
+		    
+		    }
+		    for(; u <= i ;u++){
+		    	System.out.print(z);
+		    }
+          
+		    f = 1 ;
+		    b = 1 ;
+		    u = 1 ;
+		    i = i + 1 ; 
+		    k = k + 1 ;
+		    c = c - 1 ;
+		    System.out.println();
+		}
+	}
+
+}
